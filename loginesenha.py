@@ -11,7 +11,7 @@ while True:
     menu = int(input('Escolha uma opção: '))
 
     if menu == 1:
-        usuario2 = input('Cadastre um suário: ')
+        usuario2 = input('Cadastre um usuário: ')
         chave = input('Cadastre uma senha: ')
         login.append(usuario2)
         senha.append(chave)
